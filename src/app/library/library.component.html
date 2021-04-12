@@ -1,0 +1,24 @@
+
+<h1>WElCOME TO THE LIBRARY</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Book Id</th>
+            <th>Author Name</th>
+            <th>Book Title</th>
+            <th>ISBN Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let book of books">
+            <td>{{book.id}}</td>
+            <td>{{book.author}}</td>
+            <td>{{book.title}}</td>
+            <td>{{book.isbn}}</td>
+
+
+
+        </tr>
+    </tbody>
+</table>
